@@ -1,0 +1,65 @@
+.kan{
+background-image: url(./b.jpg);
+    height: 50vh;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.j{
+    border: 2px solid black;
+    border-radius: 50px;
+    padding-bottom: 2px;
+    margin-bottom: 5px;
+    
+     width: 80;
+      height: 80;
+    max-resolution: bottom 5px;
+
+
+}
+.form {
+    margin-top: 3rem;
+    height: 800px;
+    width: 100%;
+    background-image: url(./pexels-pixabay-73825.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.message {
+    height: 500px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    box-shadow: 0 0 5rem 1rem rgb(0, 0, 0);
+    border-radius: 0 5rem 0 8rem;
+}
+.text-center {
+    text-align: center!important;
+}
+
+.flex{
+    display: flex;
+}
+.message img{
+    height: 50px;
+
+}
+.message img:hover{
+    transform: rotate(360deg);
+    transition: all 2s linear;
+}
+
+
+input{
+    width: 80%;
+    border: none;
+    border-bottom: 2px solid rgb(4, 245, 16);
+    background: transparent;
+
+}
+
+::placeholder{
+    color: rgb(255, 0, 0);
+}
